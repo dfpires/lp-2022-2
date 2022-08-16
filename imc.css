@@ -1,0 +1,16 @@
+div {
+    margin-bottom: 20px; /* margem abaixo */
+}
+
+body {
+    background-color: peru;
+}
+
+section {
+    background-color: brown;
+    padding: 20px; /* espaçamento interno à direita, à esquerda, acima e abaixo
+    */ 
+    margin: auto; /* centraliza a seção */
+    width: 600px; /* largura */
+    margin-top: 100px; /* afastando-se do topo da página */
+}
