@@ -3,7 +3,8 @@
     <head>
         <title> Calculadora do IMC </title>
         <meta charset="utf-8"/>
-        <link href="imc.css" rel="stylesheet"/> 
+        <link href="imc.css" rel="stylesheet"/>
+        <script src="imc.js"> </script>  
     </head>
     <body>
         <!-- criando uma seção -->
@@ -17,7 +18,10 @@
                 Informe peso <input type="number" id="peso"/>
             </div>
             <div>
-                <button type="button"> Enviar </button> 
+                <button type="button" onClick="calcular()"> Enviar </button> 
+            </div>
+            <div>
+                <p id="imc"/>
             </div>
         </section>
     </body>
