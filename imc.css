@@ -1,25 +1,23 @@
-
-/* folha de estilo em cascata */
-/* o estilo aplicado a um elemento desce para os filhos */
-
-div {
-    margin-bottom: 20px; /* margem abaixo */
-}
-
-body {
-    background-color: peru;
-}
-
-section {
-    border-radius: 20px;
-    background-color: brown;
-    padding: 20px; /* espaçamento interno à direita, à esquerda, acima e abaixo
-    */ 
-    margin: auto; /* centraliza a seção */
-    width: 600px; /* largura */
-    margin-top: 100px; /* afastando-se do topo da página */
-}
-
-p{
-    color: white
-}
+div
+    {
+        margin-bottom: 20px;
+    }
+body
+    {
+        background-color: aqua;
+        
+    }
+section
+    {
+        border-radius: 20px; 
+        background-color: blue;
+        padding: 20px; /*espaçamento interno a direita esquerda acima abaixo*/
+        margin: auto;
+        margin-top: 60px;
+        width: 200px;
+    }
+    /*mudar a cor do paragrafo*/
+    p
+    {
+        color: oldlace;
+    }
