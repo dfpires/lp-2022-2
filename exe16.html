@@ -5,24 +5,25 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="imc.css" rel="stylesheet"?> <!--lincando o codigo css no html-->
-        <script src="imc.js"> </script>
-        <title>Calculadora de IMC</title>
+        <script src="exe16.js"> </script>
+        <title>Exercício 16</title>
     </head>     <!--fechamento de TAGS-->
     <body>
         <section>
-            <h3>Calculadora de IMC</h3>     <!--h cabeçalho o numero é o nivel  mancam titulo-->
+            <h3> Exercício 16</h3>     <!--h cabeçalho o numero é o nivel  mancam titulo-->
                 <div>
-                    Informe altura <input type="number" id="altura"/>
+                    Informe cateto 1 <input type="number" id="c1"/>
                 </div>
                 <div>
-                    Informe peso <input type="number" id="peso"/>
+                    Informe cateto 2 <input type="number" id="c2"/>
                 </div>
                 <div>
-                    <button type="button" onClick="calcular()"> Enviar </button>
+                    <button type="button" onClick="calcular()"> 
+                        Enviar 
+                    </button>
                 </div>
                 <div>
-                    <p id="imc"/>
-                    <p id="classificacao"/>
+                    <p id="hipotenusa"/>                    
                 </div>    
         </section>
     
