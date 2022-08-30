@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+}
+
+section {
+    border-radius: 10px; /* bordas arredondadas */
+    background-color: burlywood;
+    padding: 20px; /* espaçamento interno */
+    width: 800px; /* largura */
+    margin: auto; /* centraliza */
+    margin-top: 50px; /* espaçamento externo superior */
+}
+
+div {
+    margin-bottom: 10px; /* espaçamento externo inferior */
+}
