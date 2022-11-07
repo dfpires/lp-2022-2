@@ -8,6 +8,8 @@ function principal() {
     let multiplos2 = [] //  cria vetor
     let multiplos3 = [] //  cria vetor
     let multiplos23 = [] //  cria vetor
+
+    
     for (let i = 0; i < 7; i++) {
         if (vetor[i] % 2 == 0) {
             multiplos2.push(vetor[i])
